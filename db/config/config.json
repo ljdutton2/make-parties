@@ -1,0 +1,22 @@
+{
+  "development": {
+    "username": null,
+    "password": null,
+    "database": "my-db",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "port": "3306"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "use_env_variable": "PROD_DATABASE_URL"
+  }
+}
