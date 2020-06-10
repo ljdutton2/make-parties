@@ -21,6 +21,10 @@ module.exports = {
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
+      },
+      takesPlaceOn: {
+        allowNull: false,
+        type: Sequelize.DATE
       }
     });
   },
